@@ -1,0 +1,482 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap');
+.html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+    
+    
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+.hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+.video {
+    vertical-align: middle;
+}
+
+.fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.header a.inicio {
+    color: #fff;
+    font-size: 1.6rem;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.header nav a,
+.header nav a:hover {
+    color: #fff;
+}
+
+.section.destacada {
+    position: relative;
+    font-family: 'IBM Plex Mono', monospace;
+
+}
+.section.destacada .contenido {
+    top: 50%;
+    left: 0;
+    width: 100%;
+    position:absolute;
+    z-index: 20;
+
+}
+.informacion{
+    padding: 50px;
+}
+.large-3 {
+    padding: 50px;
+}
+.panel img{
+    padding: 20px;
+}
+.contenido.text-center h1{
+    font-family: 'IBM Plex Mono', monospace;
+
+}
+
+.text-center{
+    font-family: 'IBM Plex Mono', monospace;
+
+}
+
+.text-center h2{
+    font-family: 'IBM Plex Mono', monospace;
+
+}
+
+.destacada{
+    padding: 100px;
+}
+
+.section.destacada .contenido h1 {
+    padding:30px 50px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin:0 auto;
+    width:60%;
+    font-family: 'IBM Plex Mono', monospace;
+
+    
+}
+
+.section.agencia {
+    background-color: #ebeeed;
+    padding:10px;
+    font-family: 'IBM Plex Mono', monospace;
+
+}
+
+.section.agencia .borde {
+    border: 1px solid #aeb4b7;
+}
+
+.section.agencia p {
+    margin-bottom: 40px;
+    
+    
+}
+
+
+.section.servicios {
+    background-color: #ebeeed;
+    border-top: 1px solid #c2c2c2;
+    border-bottom: 1px solid #c2c2c2;
+    padding-top: 30px;    
+
+}
+.servicios {
+    padding: 20px;
+    justify-content: center;
+}
+
+.section.servicios small {
+    font-family: 'IBM Plex Mono', monospace;
+
+}
+
+.section.contacto {
+    background-color: #4f5962;
+    padding: 10px;
+    color: #fff;
+    font-family: 'IBM Plex Mono', monospace;
+
+}
+.section.contacto .borde {
+    border:1px solid #697279;
+    
+    
+}
+
+.section.contacto .button {
+    background-color: #67727c;
+    border: 2px solid #fff;
+    color: #fff;
+    padding:15px 50px;
+    font-family: 'IBM Plex Mono', monospace;
+
+}
+
+.footer {
+    background-color: #2d3235;
+    padding-top: 30px;
+    font-family: 'IBM Plex Mono', monospace;
+
+}
+.footer nav a,
+.footer nav a:hover {
+    color: #fff;
+}
+
+.footer hr {
+    display: block;
+    height: 1px;
+    border:0;
+    border-top: 1px solid #595d60;
+    margin: 1rem 0;
+    padding:0;
+}
+
+.footer p {
+    color: #fff;
+}
+.section.informacion {
+    padding: 20px;
+}
+
+.section.informacion {
+    padding: 30px 0;
+}
+
+.header {
+    height: 55vh !important;
+    
+    
+}
+.contacto h2{
+    font-family: 'IBM Plex Mono', monospace;
+
+}
+.contacto {
+    font-family: 'IBM Plex Mono', monospace;
+
+}
+.contacto a{
+    font-family: 'IBM Plex Mono', monospace;
+
+}
+.servicios h2{
+    font-family: 'IBM Plex Mono', monospace;
+
+}
+#offers{
+    background: url(../img/headerimg.png) center/cover no-repeat;
+}
+#offers .row{
+    min-height: 60vh;
+    
+}
+.offers-content span{
+    font-size: 20px;
+    font-family: 'IBM Plex Mono', monospace;
+
+}
+.offers-content h2{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 60px;
+}
+.offers-content .btn{
+    border-color: transparent!important;
+}
+.text-white {
+    color: rgb(0, 0, 0)!important;
+}
+
+.btn:not(.nav-btns button){
+    background-color: #008CBA;
+    color: rgb(0, 0, 0);
+    padding: 10px 28px;
+    border-radius: 25px;
+    border: 1px solid rgb(85, 85, 85);
+    font-family: 'IBM Plex Mono', monospace;
+}
+.btn:not(.nav-btns button):hover{
+    background-color: var(--pink);
+    color: rgb(255, 255, 255);
+    border-color: var(--pink);
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.aplicaciones h2 {
+    font-family: 'IBM Plex Mono', monospace;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.aplicaciones {
+    font-family: 'IBM Plex Mono', monospace;
+    
+}
+.bordee h2{
+    font-family: 'IBM Plex Mono', monospace;
+    
+
+}
+.fixed {
+    font-family: 'IBM Plex Mono', monospace;
+
+}
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+   
+}
+
+.text-center img{
+        margin-top: 30px;
+        max-width: 300px;
+}
+
+
+.product img {
+    max-width: 100%;
+    object-fit: contain;
+    height: 100%;
+}
+.product {
+    display: flex;
+}
+
+.product-left,
+.product-right {
+    max-width: 50%;
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    align-content: stretch;
+    flex-direction: column;
+}
+
+.product-title {
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.product-container {
+    margin: 40px 0px 40px 0px;
+    display: flex;
+}
+
+.product-button {
+    border: 1px solid white;
+    max-width: max-content;
+    padding: 5px 20px 5px 20px;
+    border-radius: 40px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.product-button-white {
+    color: white;
+}
+
+.product-button-black {
+    color: black;
+    border-color: black;
+}
+
+.product-description {
+    text-align: center;
+    padding: 30px 60px 30px 60px;
+    font-size: 18px;
+}
